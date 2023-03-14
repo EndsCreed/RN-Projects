@@ -1,0 +1,11 @@
+name: ${project.name}
+description: "${project.description}"
+main: ${mainClass}
+version: ${project.version}
+author: [Faarie]
+
+commands:
+  projects:
+    description: "Opens the main RN-Projects GUI"
+    usage: "/projects, /pjs"
+    aliases: [pjs]

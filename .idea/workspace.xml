@@ -5,26 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bd3b52c-ee28-4f08-8de8-5f8fca498a02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/Enums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/Projects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/commands/ProjectsCMD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/managers/DatabaseManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/managers/FileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/managers/MenuManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/objects/MenuObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/objects/PlayerStats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/objects/TaskObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/storage/local/ConfigUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/storage/local/Settings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/storage/remote/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/utils/MenuUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/storage/remote/DatabaseQueries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/storage/remote/TablesDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/divisions.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/menus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/settings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/Projects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/Projects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/commands/ProjectsCMD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/commands/ProjectsCMD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/managers/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/managers/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/objects/MenuObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/objects/MenuObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/storage/remote/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/renatusnetwork/storage/remote/DatabaseConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +52,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -79,6 +76,7 @@
       <workItem from="1678570751563" duration="816000" />
       <workItem from="1678571590851" duration="52000" />
       <workItem from="1678571707902" duration="5768000" />
+      <workItem from="1678668396465" duration="5299000" />
     </task>
     <servers />
   </component>
