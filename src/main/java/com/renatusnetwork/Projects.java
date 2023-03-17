@@ -36,6 +36,8 @@ public class Projects extends JavaPlugin {
 
     // Getters
     public static FileManager getFileManager() { return fileManager; }
-    public DatabaseManager getDatabaseManager() { return databaseManager; }
-    public MenuManager getMenuManager() { return menuManager; }
+    public static DatabaseManager getDatabaseManager() { return databaseManager; }
+    public static MenuManager getMenuManager() { return menuManager; }
+    public static Logger getPluginLogger() { return logger; }
+    public static Plugin getPlugin() { return plugin; }
 }
