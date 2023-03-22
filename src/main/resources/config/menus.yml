@@ -1,0 +1,66 @@
+# Settings:
+#   pageType - <fixed,dynamic>
+#   pageSize - The max number of rows in each page (Not used in theoretical manual mode)
+#     fixed - pages will always be exactly the amount of rows specified in pageSize
+#     dynamic - pages will fill up to pageSize but are allowed to be less if there isn't enough content for the last page
+#     manual (May not be implemented) - instead of 1 string list defining all rows, there will be numbered string lists for each page.
+#       example:
+#         main:
+#           pages:
+#             1:
+#             - ",,,,,,,,"
+#             - ",,,,,,,,"
+#             - ",,,,,,,,"
+#             - ",,,,,,,,"
+#             2:
+#             - ",,,,,,,,"
+#             - ",,,,,,,,"
+#             - ",,,,,,,,"
+#       As opposed to:
+#         main:
+#           rows:
+#           - ",,,,,,,,"
+#           - ",,,,,,,,"
+#           - ",,,,,,,,"
+#           - ",,,,,,,,"
+#           - ",,,,,,,,"
+#           - ",,,,,,,,"
+#           - ",,,,,,,,"
+#       Fixed would allow for different row counts per page.
+#   pageDesign - a base page design that does not contribute to the page size in dynamic.
+#     Ambition: Have ternary operation in a slot. This could allow page designs to differ depending on page or other factors.
+
+menus:
+  main:
+    settings:
+      title: "&6&lRN-Projects"
+      pageSize: 5
+      pageType: "fixed"
+    pageDesign:
+      - "back,rnblk,rnblk,rnblk,rnblk,rnblk,rnblk,rnblk,rnblk"
+      - "rnblk,rngry,rngry,rngry,rngry,rngry,rngry,rngry,rnblk"
+      - "rnblk,rngry,rngry,rngry,rngry,rngry,rngry,rngry,rnblk"
+      - "rnblk,rngry,rngry,rngry,rngry,rngry,rngry,rngry,rnblk"
+      - "$p>1?prevPage:rnblk,rnblk,rnblk,rnblk,rnblk,rnblk,rnblk,rnblk,$tp>1&&p<tp?nextPage:rnblk"
+
+customItems:
+  nextPage: # Must be "nextPage" otherwise function will break
+    title: "&aNext Page"
+    material: "PAPER"
+    nbt: true # Must be true or function will break
+  prevPage:
+    title: "&cPrevious Page"
+    material: "PAPER"
+    nbt: true
+  back:
+    title: "&4Back"
+    material: "BARRIER"
+    nbt: true
+  rnblk:
+    title: '&0Renatus Network'
+    material: "STAINED_GLASS_PANE"
+    type: 15
+  rngry:
+    title: '&8Renatus Network'
+    material: 160
+    type: 7
